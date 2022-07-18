@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #b7b7b8;
+}
+
+.sidebarContainer{
+  display: flex;
+}
+
+.sideBar{
+  padding: 1rem;
+  background: #151C2E;
+  margin-left: -17.1em;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  color: white;
+}
+
+.bgchange{
+  background: #F5FAFE;
+  color: black;
+}
+
+.active{
+  margin-left: 0rem;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
+
+.sideBar .header{
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .brand{
+  font-size: 20px;
+}
+
+.brand span{
+  color: rgb(14, 200, 14);
+}
+
+.header .switch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+}
+
+.switch a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.bgchange a{
+  color: black;
+}
+
+.sidebarContainer .bar{
+  padding: 10px;
+  background: #F5FAFE;
+  margin-left: 10px;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.miniShowcase{
+  padding: 0.5rem 1.5rem;
+}
+
+.home{
+  font-size: 17px;
+  display: flex;
+  cursor: pointer;
+}
+
+.home a{
+  color: #929292;
+  font-size: 25px;
+}
+
+.home div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home span{
+  margin-left: 0.5rem;
+  cursor: pointer;
+  color: #929292;
+}
+
+.report{
+  font-size: 17px;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.report a{
+  color: #929292;
+  font-size: 25px;
+}
+
+.report div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.report span{
+  margin-left: 0.5rem;
+  color: #929292;
+}
+
+.mainShowcase{
+  padding: 1rem 1.5rem;
+}
+
+hr{
+  margin-top: 1.5rem;
+  border-color: #92929231;;
+}
+
+.mainShowcase .content{
+  font-size: 17px;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.content a{
+  color: #929292;
+  font-size: 25px;
+}
+
+.content div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content span{
+  margin-left: 0.5rem;
+  color: #929292;
+}
+
+.vendor{
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding-top: 2rem;
+}
+
+.vendor p{
+  text-transform: uppercase;
+  color: #929292;
+  
+}
+
+.vendor a{
+  color: #929292;
+}
+
+.service{
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding-top: 2rem;
+  margin-top: 0.5em;
+}
+
+.service p{
+  text-transform: uppercase;
+  color: #929292;
+}
+
+.service a{
+  color: #929292;
+}
+
+.user{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.user .userImag{
+  width: 3rem;
+  height: 3rem;
+  background: url("./asset/huston-wilson-WyDr1KFS23Y-unsplash.jpg");
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.userName{
+  color: #929292;
+}
+
+.user-setting a{
+  color: #929292;
+  font-size: 19px;
+}
+
